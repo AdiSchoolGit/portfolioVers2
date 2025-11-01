@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/button.jsx';
 import { Github, Linkedin, Mail, ArrowDown, Download } from 'lucide-react';
 
 export default function HeroSection() {

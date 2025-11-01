@@ -1,12 +1,12 @@
 import React from "react";
 import { Code, Menu } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button.jsx";
 import {
     Sheet,
     SheetContent,
     SheetTrigger,
-} from "@/components/ui/sheet";
-import CursorHighlight from "@/components/ui/CursorHighlight";
+} from "@/components/ui/sheet.jsx";
+import CursorHighlight from "@/components/ui/CursorHighlight.jsx";
 
 const navigationItems = [
     { name: "Home", href: "#home" },

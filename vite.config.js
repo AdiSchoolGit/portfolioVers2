@@ -16,7 +16,8 @@ export default defineConfig({
             '@/components': path.resolve(__dirname, './Components'),
             '@/integrations': path.resolve(__dirname, './integrations'),
             '@/lib': path.resolve(__dirname, './lib')
-        }
+        },
+        extensions: ['.js', '.jsx', '.json', '.ts', '.tsx']
     },
     server: {
         port: 3000,
